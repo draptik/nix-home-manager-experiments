@@ -13,7 +13,6 @@
   };
 
   programs = {
-
     eza = {
       enable = true;
     };
