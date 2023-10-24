@@ -5,9 +5,15 @@ See https://www.youtube.com/watch?v=utoj6annRK0 at 29:11
 
 ## Experiments
 
-- `wezterm`: Gui applications seem to require additional configuration. I'll skip this for now.
-- Let's try something non-gui like...
-- `eza` (replacement for `exa`): works
+Gui programs seem to be a bit of a pain to get working. I'll skip them for now.
+- [ ] `wezterm`
+
+Let's try some non-gui programs:
+
+- [x] `eza` (replacement for `exa`)
+- [ ] `fish`
+- [ ] `emacs` (`-nw`)
+- [ ] `neovim`
 
 ## Working with Nix
 
