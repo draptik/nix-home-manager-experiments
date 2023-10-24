@@ -17,6 +17,12 @@
       enable = true;
     };
 
+    # tldr in rust
+    tealdeer = {
+      enable = true;
+      settings.updates.auto-updates = true;
+    };
+
     home-manager.enable = true;
   };
 }

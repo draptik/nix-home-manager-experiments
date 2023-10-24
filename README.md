@@ -14,6 +14,7 @@ Let's try some non-gui programs:
 - [ ] `fish`
 - [ ] `emacs` (`-nw`)
 - [ ] `neovim`
+- [x] `tealdeer` (replacement for `tldr`)
 
 ## Working with Nix
 
