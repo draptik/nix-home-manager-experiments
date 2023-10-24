@@ -7,6 +7,7 @@ See https://www.youtube.com/watch?v=utoj6annRK0 at 29:11
 
 - `wezterm`: Gui applications seem to require additional configuration. I'll skip this for now.
 - Let's try something non-gui like...
+- `eza` (replacement for `exa`): works
 
 ## Working with Nix
 

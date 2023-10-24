@@ -3,17 +3,20 @@
   pkgs,
   ...
 }: {
-  home.username = "patrick";
-  home.homeDirectory = "/home/patrick";
-  home.stateVersion = "23.05";
-  home.packages = with pkgs; [
-    lolcat
-    # wezterm
-  ];
+  home = {
+    username = "patrick";
+    homeDirectory = "/home/patrick";
+    stateVersion = "23.05";
+    packages = with pkgs; [
+      lolcat
+    ];
+  };
+
   programs = {
-    # wezterm = {
-    #   enable = true;
-    # };
+
+    eza = {
+      enable = true;
+    };
 
     home-manager.enable = true;
   };
