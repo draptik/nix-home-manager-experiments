@@ -13,7 +13,6 @@
   };
 
   programs = {
-
     # exa replacement
     eza = {
       enable = true;
