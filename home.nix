@@ -14,9 +14,9 @@
 
   programs = {
     # exa replacement
-    eza = {
-      enable = true;
-    };
+    # eza = {
+    #   enable = false;
+    # };
 
     # tldr in rust
     tealdeer = {
